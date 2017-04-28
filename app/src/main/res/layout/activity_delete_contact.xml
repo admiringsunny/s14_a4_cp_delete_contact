@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseColor"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.assignments.session14.assignment4.DeleteContactActivity">
+
+    <TextView
+        android:id="@+id/old_detail_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details_heading"
+        android:textColor="@color/secondColor"
+        android:textSize="@dimen/text_dim"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_old_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondColor"
+        android:text="@string/detail_name"
+        android:textSize="@dimen/text_dim"/>
+
+
+    <TextView
+        android:id="@+id/tv_old_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondColor"
+        android:text="@string/detail_mb"/>
+
+    <Button
+        android:id="@+id/bt_delete_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/text_dim"
+        android:background="@color/thirdColor"
+        android:paddingLeft="@dimen/margin_dim"
+        android:paddingRight="@dimen/margin_dim"
+        android:text="@string/delete_btn" />
+
+</LinearLayout>

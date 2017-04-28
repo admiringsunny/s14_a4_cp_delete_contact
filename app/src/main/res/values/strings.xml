@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CP Delete Contact</string>
+    <string name="main_activity_actionbar">Contacts list</string>
+    <string name="detail_name">Name:</string>
+    <string name="detail_mb">Mobile:</string>
+    <string name="delete_activity_actionbar">Delete Contact?</string>
+    <string name="delete_btn">Delete Contact</string>
+    <string name="tutorial_txt">Select Contact to Delete</string>
+    <string name="details_heading">Are you sure, you want to delete this contact?</string>
+</resources>
